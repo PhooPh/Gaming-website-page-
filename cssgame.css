@@ -1,0 +1,823 @@
+
+
+.body{
+   
+    width:100%;
+    height:650px;
+    border-bottom-right-radius:20% 10%;
+    border-bottom-left-radius:20% 10%;
+    background-color: rgb(32, 139, 234);
+    }
+*{
+    margin:0;
+    padding:0;
+ 
+    
+    }
+.icon{
+    width:50px;
+    height:80px;
+    margin-top:-15px;
+    margin-left:20px;
+   }
+.Lugx{
+    margin-top:-40px;
+    margin-left:80px;
+    font-size: 20px;
+}
+   .menu{
+    display: flex;
+    width:50vw;
+    transition: .5s;
+    text-decoration: none;
+    margin-left:750px;
+    font-size: 15px;
+    justify-content: space-evenly;
+    margin-top:-35px;
+    padding-left: 8px;
+   }
+a{
+  text-decoration: none;
+  position:relative;
+
+}
+li{
+  list-style: none;
+  cursor: pointer;
+}
+
+#login{
+    padding:6px;
+    background-color: rgba(214, 28, 28, 0.701);
+    width:20%;
+    font-weight: bold;
+    margin-top: -7px;
+    font-size: 15px;
+    color:rgb(236, 224, 224);
+    border-radius:20px;
+    border:1px solid rgb(222, 45, 45);
+    margin-left:20px;
+    text-align: center;
+  }
+#login:hover{
+    cursor:pointer; 
+    background-color: rgb(230, 63, 63);
+  }   
+.first{
+    
+    margin-bottom:400px;
+    margin-top:-520px;
+    color:rgb(37, 41, 90);
+    margin-left: 50px;
+  }
+.title{
+    text-align:left;
+    padding-top:10px;
+
+  }
+.Text1{
+    text-align:left;
+    padding-top:10px;
+  }
+.Text2{
+    text-align:left;
+    padding-top:10px;
+  }
+.Text3{
+    text-align:left;
+    padding-top:10px;
+  }
+  .form{
+    padding:10px;
+    border-radius: 10px;
+    margin-bottom:120px;
+    margin-top:10px;
+    color:rgb(41, 41, 46);
+ 
+    
+  }
+  .box{
+    width:20%;
+    margin:15px;
+    margin-left:-10px;
+    border:1px solid rgb(24, 30, 16);
+    padding: 8px;
+    border-radius: 20px;
+  }
+  #submit{
+    padding:8px;
+    background-color: rgba(57, 55, 70, 0.701);
+    width:10%;
+    
+    font-weight: bold;
+    margin-top: 5px;
+    color:rgb(44, 25, 25);
+    border-radius:20px;
+    border:1px solid rgb(211, 181, 181);
+    margin-left:-60px;
+  }
+  #submit:hover{
+    cursor:pointer; 
+    background-color: rgb(203, 135, 135);
+  }
+  .ezionum{
+    border:1px solid rgb(33, 29, 29);
+    width :25%;
+    height: 380px;
+    background-image:url(ezio-assassins-creed-vr-sm.\ \(2\).jpg);
+    background-size:cover;
+    
+    margin-left: 750px;
+    
+    margin-top:-700px;
+   
+    border-radius: 10px;
+  }
+
+   
+.sign{
+   border:1px solid rgb(18, 162, 246);
+   width :8%;
+   height: 20px;
+   background-color: rgb(14, 108, 209);
+   margin-left: 80%;
+   border-radius: 12px;
+   margin-top:10px;
+   padding-left:12px;
+   padding-right:12px;
+}
+.number{
+   border:1px solid rgb(166, 39, 39);
+   width :15%;
+   height: 40px;
+   background-color: rgb(157, 51, 51);
+   margin-left:-7%;
+   margin-top:310px ;
+   border-radius: 45%;
+   padding: 10px;
+   color:aliceblue;
+   font-weight: bold;
+   text-align:under;
+   font-size: 20px;
+   
+}
+.Icon1{
+  border:1px solid rgba(237, 224, 224, 0.705) ;
+  width:15%;
+  height:120px;
+  margin-left:8%;
+  margin-top:10% ;
+  border-radius: 20px;
+  background-color: white;
+ 
+}
+.cloudstorage{
+  border:1px solid rgb(30, 131, 198) ;
+  width:5%;
+  height:45px;
+  margin-left:13%;
+  margin-top: -8% ;
+  border-radius: 30px;
+  background-color: rgb(43, 123, 209);
+  padding-top: 10px;
+  text-align: center;
+}
+.Free{
+  font-weight: bold;
+  margin-left:12%;
+  margin-top:1%;
+}
+.Icon2{
+  border:1px solid rgba(237, 224, 224, 0.705) ;
+  width:15%;
+  height:120px;
+  margin-left:27%;
+  margin-top:-8% ;
+  border-radius: 20px;
+  background-color: white;
+ 
+}
+.usermore{
+  border:1px solid rgb(30, 131, 198) ;
+  width:5%;
+  height:45px;
+  margin-left:32%;
+  margin-top: -8% ;
+  border-radius: 30px;
+  background-color: rgb(43, 123, 209);
+  padding-top: 10px;
+  text-align: center;
+}
+.More{
+  font-weight: bold;
+  margin-left:32%;
+  margin-top:1%;
+}
+.Icon3{
+  border:1px solid rgba(237, 224, 224, 0.705) ;
+  width:15%;
+  height:120px;
+  margin-left:46%;
+  margin-top:-8% ;
+  border-radius: 20px;
+  background-color: white;
+ 
+}
+.easyreply{
+  border:1px solid rgb(30, 131, 198) ;
+  width:5%;
+  height:45px;
+  margin-left:51%;
+  margin-top: -8% ;
+  border-radius: 30px;
+  background-color: rgb(43, 123, 209);
+  padding-top: 10px;
+  text-align: center;
+}
+.Easy{
+  font-weight: bold;
+  margin-left:50%;
+  margin-top:1%;
+}
+.Icon4{
+  border:1px solid rgba(237, 224, 224, 0.705) ;
+  width:15%;
+  height:120px;
+  margin-left:65%;
+  margin-top:-8% ;
+  border-radius: 20px;
+  background-color: white;
+ 
+}
+.layout{
+  border:1px solid rgb(30, 131, 198) ;
+  width:5%;
+  height:45px;
+  margin-left:70%;
+  margin-top: -8% ;
+  border-radius: 30px;
+  background-color: rgb(43, 123, 209);
+  padding-top: 10px;
+  text-align: center;
+}
+.lay{
+  font-weight: bold;
+  margin-left:69%;
+  margin-top:1%;
+}    
+.start{
+  text-align: left;
+  color:rgb(219, 100, 100);
+  margin-top: 70px;
+  margin-left:50px;
+}
+.trend{
+  color:rgb(219, 100, 100);
+  margin-left:5px;
+}
+.trending{
+  color:black;
+ 
+}
+#button{
+    padding:6px;
+    background-color: rgba(214, 28, 28, 0.701);
+    width:6%;
+    height:35px;
+    font-weight: bold;
+    margin-left:90%;
+    margin-top: 0%;
+    color:rgb(236, 224, 224);
+    border-radius:20px;
+    border:1px solid rgb(222, 45, 45);
+    
+  }
+#button:hover{
+    cursor:pointer; 
+    background-color: rgb(230, 63, 63);
+}
+.Actiongame1{
+    border:1px solid rgb(33, 29, 29);
+    width :20%;
+    height: 150px;
+    background-image: url(WCCFtheriftbreaker1..jpg);
+    background-size: cover;
+    margin-left:50px;
+    
+    padding:8px;
+    margin-top:10px ;
+    border-radius: 20px;
+  }
+  .Action1{
+    text-align:left;
+    margin-left:50px;
+    border:1px solid rgb(242, 234, 234);
+    padding:8px;
+    margin-top:-10px ;
+    width :20%;
+    height: 30px;
+    background-color:rgb(237, 227, 227);
+    border-radius: 10px;
+    color: rgb(30, 30, 28);
+    font-size: x-small;
+  }
+  .dollor{
+   border:1px solid  rgb(14, 89, 169);
+   width :16%;
+   height: 40px;
+   background-color: rgb(14, 89, 169);
+   margin-left: 80%;
+   border-radius: 12px;
+   margin-top:-200px;
+   color:white;
+   font-size:10px;
+   font-weight:bold;
+   text-align: center;
+}
+.dollor1{
+   margin-left: 83%;
+   font-weight:bold;
+   margin-top:-25px;
+   color:white;
+   font-size:15px;
+  
+}
+
+.icons{
+   margin-left: 21%;
+   margin-top:-36px;
+   display: flex;
+   border:1px solid  rgb(237, 227, 227);
+   width:28px;
+   height:30px;
+   background-color: rgb(237, 227, 227);
+   border-radius:16px;
+   padding-left: 1%;
+   padding-bottom: -1%;
+}
+.Actiongame2{
+    border:1px solid rgb(24, 22, 22);
+    width :20%;
+    height: 150px;
+    background-image:url(Tower\ of\ fastasy..jpg);
+    background-size: cover;
+    margin-left:350px;
+    padding:9px;
+    margin-top:-200px ;
+    border-radius: 20px;
+  }
+  .Action2{
+    text-align:left;
+    margin-left:350px;
+    border:1px solid rgb(220, 213, 213);
+    padding:8px;
+    margin-top:-13px ;
+    width :20%;
+    height: 30px;
+    background-color:rgb(237, 227, 227);
+    border-radius: 10px;
+    color: rgb(30, 30, 28);
+    font-size: x-small;
+  }
+  .form1{
+   border:1px solid  rgb(14, 89, 169);
+   width :16%;
+   height: 30px;
+   background-color: rgb(14, 89, 169);
+   margin-left: 80%;
+   border-radius: 12px;
+   margin-top:-190px;  
+}
+.dollor2{
+  margin-top:-190px;
+  margin-left: 45%;
+  color:white;
+  font-weight:bold;
+  font-size:15px;
+
+}
+.icons2{
+   margin-left: 45%;
+   margin-top:140px;
+   display: flex;
+   border:1px solid  rgb(237, 227, 227);
+   width:28px;
+   height:30px;
+   background-color: rgb(237, 227, 227);
+   border-radius:16px;
+   padding-left: 1%;
+   padding-bottom: -1%;
+}
+.Actiongame3{
+    border:1px solid rgb(239, 233, 233);
+    width :20%;
+    height: 150px;
+    background-image:url(superpeople.jpg);
+    background-size: cover;
+    margin-left:650px;
+    padding:9px;
+    margin-top:-200px ;
+    border-radius: 20px;
+  }
+  .Action3{
+    text-align:left;
+    margin-left:650px;
+    border:1px solid rgb(220, 213, 213);
+    padding:8px;
+    margin-top:-13px ;
+    width :20%;
+    height: 30px;
+    background-color:rgb(237, 227, 227);
+    border-radius: 10px;
+    color: rgb(30, 30, 28);
+    font-size: x-small;
+  }
+  .form2{
+   border:1px solid  rgb(14, 89, 169);
+   width :16%;
+   height: 40px;
+   background-color: rgb(14, 89, 169);
+   margin-left: 80%;
+   border-radius: 12px;
+   margin-top:-200px;  
+}
+.Dollor{
+  margin-top:-197px;
+  margin-left:69%;
+  color:white;
+  font-weight:bold;
+  font-size:10px;
+
+}
+.dollor3{
+  margin-top:-1px;
+  margin-left:69%;
+  color:rgb(241, 233, 233);
+  font-weight:bold;
+  font-size:15px;
+
+}
+.icons3{
+   margin-left: 69%;
+   margin-top:130px;
+   display: flex;
+   border:1px solid  rgb(237, 227, 227);
+   width:28px;
+   height:30px;
+   background-color: rgb(237, 227, 227);
+   border-radius:16px;
+   padding-left: 1%;
+   padding-bottom: -1%;
+}
+.Actiongame4{
+    border:1px solid rgb(24, 22, 22);
+    width :20%;
+    height: 150px;
+    background-image:url(Yu-Gi-Oh.jpg);
+    background-size: cover;
+    margin-left:950px;
+    padding:9px;
+    margin-top:-203px ;
+    border-radius: 20px;
+  }
+.Action4{
+    text-align:left;
+    margin-left:950px;
+    border:1px solid rgb(220, 213, 213);
+    padding:8px;
+    margin-top:-13px ;
+    width :20%;
+    height: 30px;
+    background-color:rgb(237, 227, 227);
+    border-radius: 10px;
+    color: rgb(30, 30, 28);
+    font-size: x-small;
+  }
+  .form3{
+   border:1px solid  rgb(14, 89, 169);
+   width :16%;
+   height: 30px;
+   background-color: rgb(14, 89, 169);
+   margin-left: 82%;
+   border-radius: 12px;
+   margin-top:-190px;  
+}
+.dollor4{
+  margin-top:-190px;
+  margin-left: 93%;
+  color:rgb(237, 228, 228);
+  font-weight:bold;
+  font-size:15px;
+
+}
+.icons4{
+   margin-left: 93%;
+   margin-top:140px;
+   display: flex;
+   border:1px solid  rgb(237, 227, 227);
+   width:28px;
+   height:30px;
+   background-color: rgb(237, 227, 227);
+   border-radius:16px;
+   padding-left: 1%;
+   padding-bottom: -1%;
+}
+.Second{
+   
+   width:100%;
+   height:470px;
+   border:1px solid rgb(229, 238, 239);
+   background-color: rgb(216, 226, 233);
+   margin-top:5%;
+   border-radius: 80px;
+
+
+}
+.games{
+  color:rgb(219, 100, 100);
+  margin-left:4%;
+  margin-top: 4%;
+  
+
+}
+.play{
+  color:black;
+  margin-left:4%;
+ 
+}
+#button1{
+    padding:6px;
+    background-color: rgba(214, 28, 28, 0.701);
+    width:6%;
+    height:35px;
+    font-weight: bold;
+    margin-left:90%;
+    margin-top: -2%;
+    color:rgb(236, 224, 224);
+    border-radius:20px;
+    border:1px solid rgb(222, 45, 45);
+    
+  }
+#button1:hover{
+    cursor:pointer; 
+    background-color: rgb(46, 39, 39);
+}
+.Warframe{
+    border:1px solid rgb(33, 29, 29);
+    width :12%;
+    height: 160px;
+    background-image: url(Warframe2.jpg);
+    background-size:cover;
+    margin-left:50px;
+    padding:8px;
+    margin-top:60px;
+    border-radius: 20px;
+  }
+  .game1{
+    text-align:left;
+    margin-left:50px;
+    border:1px solid rgb(242, 234, 234);
+    padding:8px;
+    margin-top:-10px ;
+    width :12%;
+    height: 40px;
+    background-color:rgb(189, 189, 189);
+    border-radius: 10px;
+    color: rgb(13, 13, 12);
+    font-size: x-small;
+    text-align: center;
+  }
+  #button2{
+    padding:3px;
+    background-color: rgba(176, 16, 16, 0.858);
+    width:40%;
+    height:35px;
+    font-weight: bold;
+    margin-left:10px;
+    margin-top: 2%;
+    font-size:9px;
+    color:rgb(236, 224, 224);
+    border-radius:20px;
+    border:1px solid rgb(192, 19, 19);
+    
+  }
+#button2:hover{
+    cursor:pointer; 
+    background-color: rgb(46, 39, 39);
+}
+.Battleground{
+    border:1px solid rgb(33, 29, 29);
+    width :12%;
+    height: 160px;
+    background-image: url(img-og-pubg.\ \(3\).jpg);
+    background-size:cover;
+    margin-left:20%;
+    padding:8px;
+    margin-top:-220px;
+    border-radius: 20px;
+  }
+  .pubg{
+    text-align:left;
+    margin-left:20%;
+    border:1px solid rgb(242, 234, 234);
+    padding:3px;
+    margin-top:-13px ;
+    width :13%;
+    height: 50px;
+
+    background-color:rgb(189, 189, 189);
+    border-radius: 10px;
+    color: rgb(13, 13, 12);
+    font-size: x-small;
+    text-align: center;
+  }
+  #button3{
+    padding:3px;
+    background-color: rgba(176, 16, 16, 0.858);
+    width:40%;
+    height:35px;
+    font-weight: bold;
+    font-size:9px;
+    margin-left:4%;
+    margin-top: 2%;
+    color:rgb(236, 224, 224);
+    border-radius:20px;
+    border:1px solid rgb(192, 19, 19);
+    
+  }
+#button3:hover{
+    cursor:pointer; 
+    background-color: rgb(46, 39, 39);
+}
+.Apex{
+    border:1px solid rgb(33, 29, 29);
+    width :12%;
+    height: 160px;
+    background-image: url(Apex\ \(2\).jpg);
+    background-size:cover;
+    margin-left:36%;
+    padding:8px;
+    margin-top:-220px ;
+    border-radius: 20px;
+  }
+  .apex{
+    text-align:left;
+    margin-left:36%;
+    border:1px solid rgb(242, 234, 234);
+    padding:8px;
+    margin-top:-13px;
+    width :12%;
+    height: 40px;
+    background-color:rgb(189, 189, 189);
+    border-radius: 10px;
+    color: rgb(13, 13, 12);
+    font-size: x-small;
+    text-align: center;
+  }
+  #button4{
+    padding:3px;
+    background-color: rgba(176, 16, 16, 0.858);
+    width:40%;
+    height:35px;
+    font-weight: bold;
+    margin-left:4%;
+    margin-top: 2%;
+    font-size: 9px;
+    color:rgb(236, 224, 224);
+    border-radius:20px;
+    border:1px solid rgb(192, 19, 19);
+    
+  }
+#button4:hover{
+    cursor:pointer; 
+    background-color: rgb(46, 39, 39);
+}
+.Sim4{
+    border:1px solid rgb(33, 29, 29);
+    width :12%;
+    height: 160px;
+    background-image: url(the-sims-4\ \(2\).jpg);
+    background-size:cover;
+    margin-left:52%;
+    padding:8px;
+    margin-top:-220px ;
+    border-radius: 20px;
+  }
+  .sim4{
+    text-align:left;
+    margin-left:52%;
+    border:1px solid rgb(242, 234, 234);
+    padding:8px;
+    margin-top:-13px ;
+    width :12%;
+    height: 40px;
+    background-color:rgb(189, 189, 189);
+    border-radius: 10px;
+    color: rgb(13, 13, 12);
+    font-size: x-small;
+    text-align: center;
+  }
+  #button5{
+    padding:3px;
+    background-color: rgba(176, 16, 16, 0.858);
+    width:40%;
+    height:35px;
+    font-weight: bold;
+    margin-left:4%;
+    margin-top: 2%;
+    font-size: 9px;
+    color:rgb(236, 224, 224);
+    border-radius:20px;
+    border:1px solid rgb(192, 19, 19);
+    
+  }
+#button5:hover{
+    cursor:pointer; 
+    background-color: rgb(46, 39, 39);
+}
+.Lostark{
+    border:1px solid rgb(33, 29, 29);
+    width :12%;
+    height: 160px;
+    background-image: url(Lostark\ \(3\).jpg);
+    background-size:cover;
+    margin-left:68%;
+    padding:8px;
+    margin-top:-220px;
+    border-radius: 20px;
+  }
+  .lostark{
+    text-align:left;
+    margin-left:68%;
+    border:1px solid rgb(242, 234, 234);
+    padding:8px;
+    margin-top:-13px ;
+    width :12%;
+    height: 40px;
+    background-color:rgb(189, 189, 189);
+    border-radius: 10px;
+    color: rgb(13, 13, 12);
+    font-size: x-small;
+    text-align: center;
+  }
+  #button6{
+    padding:3px;
+    background-color: rgba(176, 16, 16, 0.858);
+    width:40%;
+    height:35px;
+    font-weight: bold;
+    margin-left:4%;
+    margin-top: 2%;
+    font-size: 9px;
+    color:rgb(236, 224, 224);
+    border-radius:20px;
+    border:1px solid rgb(192, 19, 19);
+    
+  }
+#button6:hover{
+    cursor:pointer; 
+    background-color: rgb(46, 39, 39);
+}
+.Destiny2{
+    border:1px solid rgb(33, 29, 29);
+    width :12%;
+    height: 160px;
+    background-image: url(Destiny\ 2\ \(2\).jpg);
+    background-size:cover;
+    margin-left:84%;
+    padding:8px;
+    margin-top:-220px;
+    border-radius: 20px;
+  }
+  .destiny{
+    text-align:left;
+    margin-left:84%;
+    border:1px solid rgb(242, 234, 234);
+    padding:8px;
+    margin-top:-13px ;
+    width :12%;
+    height: 40px;
+    background-color:rgb(189, 189, 189);
+    border-radius: 10px;
+    color: rgb(13, 13, 12);
+    font-size: x-small;
+    text-align: center;
+  }
+  #button7{
+    padding:3px;
+    background-color: rgba(176, 16, 16, 0.858);
+    width:40%;
+    height:35px;
+    font-weight: bold;
+    margin-left:4%;
+    margin-top: 2%;
+    font-size: 9px;
+    color:rgb(236, 224, 224);
+    border-radius:20px;
+    border:1px solid rgb(192, 19, 19);
+    
+  }
+#button7:hover{
+    cursor:pointer; 
+    background-color: rgb(46, 39, 39);
+}
